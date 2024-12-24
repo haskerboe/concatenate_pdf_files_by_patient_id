@@ -27,7 +27,7 @@ def concatenate_pdf_files_by_patient_id(input_dir, output_dir): ## function to c
                     logging.error(f"Failed to concatenate files for patient ID: {patient_id}. Error: {str(e)}") ## log error
                 finally:
                     merger.close() ## close merger object
-
+# some changess
 # Example usage
 input_directory = r"C:\Users\haske\OneDrive\Desktop\pdfs"
 output_directory = r"C:\Users\haske\OneDrive\Desktop\pdfs"
